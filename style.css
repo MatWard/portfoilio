@@ -98,7 +98,7 @@ h3 > a:hover {
 
 .navbar .nav >li >a {
     color: rgb(200, 228, 32);
-    font-size: 2em;
+    font-size: 2.2em;
 }
 .smGlobalBtn{ /* global button class */
     display: inline-block;
