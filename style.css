@@ -33,7 +33,7 @@ h3 {
 }
 h3 > a {
     font-family: Amatic SC, monospace;
-    font-size: 1.5em;
+    font-size: 1em;
     color: rgb(200, 228, 32);
     text-align: center;
     text-shadow: 1px 5px 8px rgb(48, 48, 48);
@@ -62,13 +62,40 @@ h3 > a:hover {
 }
 #portfolio {
     font-family: Amatic SC, monospace;
-    font-size: 6em;
+    font-size: 4em;
     color: rgb(200, 228, 32);
     text-align: center;
     text-shadow: 1px 5px 8px rgb(48, 48, 48);
-    padding-top: 50px;
-    margin-top: -50px;
+    padding-top: 55px;
+    margin-top: -55px;
 }
+#splash {
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+}
+#tribute {
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+}
+#port {
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+}
+#yoga {
+    width="320px";
+    height="180px";
+    
+    border-style: solid;
+    border-color: black;
+    border-width: medium;
+}
+#top {
+    color: white;
+}
+
 .navbar .nav >li >a {
     color: rgb(200, 228, 32);
     font-size: 1.5em;
@@ -152,4 +179,8 @@ h3 > a:hover {
 .linkedinBtn:hover{
       color: #0094BC;
       background: #fff;
+}
+#email {
+    width: 70%;
+    align-content: center;
 }
