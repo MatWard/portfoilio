@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Cabin+Sketch' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700">
+      <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+          
+
+<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Layout</title>
+      
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script>$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing', function () {
+	        window.location.hash = target;
+	    });
+	});
+});</script>
+
+</head>
+    
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!--Navbar Logo-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+             <a href="#home" class="navbar-brand">Mat Ward</a>
+            </div>
+            <!--Menu items-->
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="#who">ABOUT</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+                <!--Social media Icons-->
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="twitterBtn smGlobalBtn" href="https://twitter.com/twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" ></a></li>
+                    <li><a class="googleplusBtn smGlobalBtn" href="https://plus.google.com/" ></a></li>
+                    <li><a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/in/matthew-ward-5a66a940?trk=nav_responsive_tab_profile" ></a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <div class="container" id="home">
+        <div class="row">
+            <div class="col-sm-4">
+                <h1>Mat Ward</h1>
+                <h2>Web Design, Development &amp; Stuff!</h2>
+            </div>
+        <div class="col-sm-8">
+            <img class="center-block" src="images/cow1.png" width="70%" id="cow">
+            </div>
+        </div>
+        </div>
+        <div class="container" id="about">
+        <div class="row">
+            <div class="col-sm-4">
+                <br>
+            <img class="center-block" src="images/dog1.png" width="80%">
+            </div>
+            <div class="col-sm-8">
+                <h2 id="who"><b>Who I am</b></h2>
+                <br>
+                <p id="about_text"><b>I'm a self taught web designer and developer based in Seattle<br>Commercial helicopter pilot flying to offshore in the<br> North Sea (UK)and the South China Sea (Malaysia)<br>Former Fire-fighter with 14 years service</b></p>
+                <img src="images/footprint.png" width="50%">
+            </div>
+        </div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <br>
+                <h1 id="portfolio">
+                Portfolio</h1>
+                    <br>
+                <br>
+            
+        <!-- Portfolio Row -->
+        <div class="row" id="portfoilio_text">
+            <div class="col-sm-4 portfolio-item">
+                <a href="https://matward.github.io/yoga/">
+                    <img class="img-responsive" src="images/yoga_screenshot_resize.jpg" id="yoga" alt="screenshot and link of yoga website">
+                </a>
+                <h3>
+                    <a href="https://matward.github.io/yoga/">Yoga Website</a>
+                </h3>
+                <hr width="70%">
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="https://matward.github.io/tribute/">
+                    <img class="img-responsive" src="images/tribute_screen_resize.jpg"  id="tesla" alt="">
+                </a>
+                <h3>
+                    <a href="https://matward.github.io/tribute/">Tribute Page</a>
+                </h3>
+                <hr width="70%">
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href="https://matward.github.io/splashpagetest/">
+                <img class="img-responsive" src="images/splash_screen_resize.jpg" id="splash" alt="">
+                </a>
+                <h3>
+                    <a href="https://matward.github.io/splashpagetest/">Splash Page</a>
+                </h3>
+                <hr width="70%">
+                
+            </div>
+        </div>
+            <!--YouTube embed code-->
+  <div class="row">
+    <div class="col-sm-4">
+<div class="co-sm-6 embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/nF9x5orzBGY"></iframe>
+</div>
+        <h3>
+            <a href="#">Maya Animation</a>
+      </h3>
+        <hr width="70%">
+    </div>
+      <div class="col-sm-4">
+           
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/tjoapwEqgQo"></iframe>
+</div>
+          <h3>
+          <a href="#">After Effects</a>
+           </h3>
+          <hr width="70%">
+    </div>
+       <div class="col-sm-4">
+   
+        
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/Nhh1Mtwj0bM"></iframe>
+</div>
+           <h3>
+          <a href="#">Motion Tracking</a>
+           </h3>
+           <hr width="70%">
+    </div>
+            </div>
+            </div>
+            <h3><a href="#home" id="top">Back to Top</a></h3>
+            <br>
+            <br>
+            
+        <!--Contact form snippet code-->
+        <div class="container" id="email">
+        <div class="row" id="contact">
+        <h2>Contact Us!</h2>
+        <br>
+
+<!-- START HERE -->
+   
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <!-- Style The Contact Form How Ever You Prefer -->
+   <link rel="stylesheet" href="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/style.css">
+
+  <form id="gform" method="POST" class="pure-form pure-form-stacked"
+  action="https://script.google.com/macros/s/AKfycbzzIKBI0Po6T0yugY_lusnad6hG1DbQ882LSbTER8m_s9e-CRA/exec">
+    <!-- change the form action to your script url -->
+
+    <fieldset class="pure-group">
+        <label for="name">Name: </label>
+      <input id="name" name="name" placeholder="What your Mom calls you" />
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="message">Message: </label>
+      <textarea id="message" name="message" rows="7"
+      placeholder="What's on your mind..."></textarea>
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="email">Your Email Address:</label>
+      <input id="email" name="email" type="email" value=""
+      required placeholder="your.name@email.com"/>
+        
+      <span id="email-invalid" style="visibility:hidden">
+        Must be a valid email address</span>
+        
+    </fieldset>
+<button class="button-primary pure-button button-large">
+      <i class="fa fa-envelope"></i>&nbsp;Send</button>
+      <br>
+      <br>
+      <br>
+       <h3><a href="#home" id="top">Back to Top</a></h3>
+
+  </form>
+
+  <!-- Customise the Thankyou Message People See when they submit the form: -->
+  <div style="display:none;" id="thankyou_message">
+
+      <h2>Thanks!<br>
+      We will get back to you soon!</h2>
+      
+  </div>
+        </div>
+            </div>
+        
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+  <!-- <script data-cfasync="false" type="text/javascript"
+  src="/form-submission-handler.js"></script> -->
+<!-- END -->
+
+        </div>
+        
+    </body>
+</html>

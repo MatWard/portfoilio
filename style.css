@@ -1,0 +1,155 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+body {
+    padding-top: 70px;
+    background: gray;
+    font-family: Amatic SC, monospace;
+    
+}
+.nav navbar navbar-inverse navbar-fixed-top {
+    color: rgb(200, 228, 32);
+}
+
+h1 {font-family: Cabin Sketch, monospace;
+    color: black;
+    font-size: 6em;
+    text-align: center;
+    text-shadow: 1px 5px 8px rgb(48, 48, 48);
+}
+h2 {
+    font-family: Amatic SC, monospace;
+    font-size: 4em;
+    color: rgb(200, 228, 32);
+    text-align: center;
+    text-shadow: 1px 5px 8px rgb(48, 48, 48);
+}
+h3 {
+    text-align: center;
+    margin-top: 5px;
+}
+h3 > a {
+    font-family: Amatic SC, monospace;
+    font-size: 1.5em;
+    color: rgb(200, 228, 32);
+    text-align: center;
+    text-shadow: 1px 5px 8px rgb(48, 48, 48);
+}
+h3 > a:hover {
+    color: white;   
+}
+#home {
+    padding-top: 70px;
+    margin-top: -60px;
+}
+#who {
+    font-family: Amatic SC, monospace;
+    font-size: 4em;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 5px 8px rgb(48, 48, 48);
+    padding-top: 70px;
+    margin-top: -50px;
+}
+#about_text {
+    font-size: 2em;
+    color: rgb(238, 238, 236);
+    text-align: center;
+    text-shadow: 1px 3px 9px white;
+}
+#portfolio {
+    font-family: Amatic SC, monospace;
+    font-size: 6em;
+    color: rgb(200, 228, 32);
+    text-align: center;
+    text-shadow: 1px 5px 8px rgb(48, 48, 48);
+    padding-top: 50px;
+    margin-top: -50px;
+}
+.navbar .nav >li >a {
+    color: rgb(200, 228, 32);
+    font-size: 1.5em;
+}
+.smGlobalBtn{ /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+   
+    margin-left: 15px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size:25px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 25px;
+    -moz-border-radius:25px;
+    -webkit-border-radius:25px;
+}
+/* facebook button class*/
+.facebookBtn{
+    background: rgba(64, 96, 165, .8);
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: rgba(0, 171, 227, .8);
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    background: rgba(230, 69, 34, .8);
+}
+
+.googleplusBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover{
+      color: #e64522;
+      background: #fff;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+    background: rgba(0, 148, 188, .8);
+}
+
+.linkedinBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+      color: #0094BC;
+      background: #fff;
+}
