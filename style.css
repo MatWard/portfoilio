@@ -33,7 +33,7 @@ h3 {
 }
 h3 > a {
     font-family: Amatic SC, monospace;
-    font-size: 1em;
+    font-size: 1.2em;
     color: rgb(200, 228, 32);
     text-align: center;
     text-shadow: 1px 5px 8px rgb(48, 48, 48);
@@ -69,6 +69,10 @@ h3 > a:hover {
     padding-top: 55px;
     margin-top: -55px;
 }
+#contact {
+    padding-top: 55px;
+    margin-top: -55px;
+}
 #splash {
     border-style: solid;
     border-color: black;
@@ -98,7 +102,7 @@ h3 > a:hover {
 
 .navbar .nav >li >a {
     color: rgb(200, 228, 32);
-    font-size: 1.5em;
+    font-size: 2em;
 }
 .smGlobalBtn{ /* global button class */
     display: inline-block;
@@ -123,7 +127,7 @@ h3 > a:hover {
 }
 /* facebook button class*/
 .facebookBtn{
-    background: rgba(64, 96, 165, .8);
+    background: rgba(64, 96, 165, .6);
 }
 
 .facebookBtn:before{ /* use :before to add the relevant icons */
@@ -138,7 +142,7 @@ h3 > a:hover {
 
 /* twitter button class*/
 .twitterBtn{
-    background: rgba(0, 171, 227, .8);
+    background: rgba(0, 171, 227, .5);
 }
 
 .twitterBtn:before{
@@ -153,7 +157,7 @@ h3 > a:hover {
 
 /* google plus button class*/
 .googleplusBtn{
-    background: rgba(230, 69, 34, .8);
+    background: rgba(230, 69, 34, .5);
 }
 
 .googleplusBtn:before{
@@ -168,7 +172,7 @@ h3 > a:hover {
 
 /* linkedin button class*/
 .linkedinBtn{
-    background: rgba(0, 148, 188, .8);
+    background: rgba(0, 148, 188, .5);
 }
 
 .linkedinBtn:before{
@@ -180,7 +184,36 @@ h3 > a:hover {
       color: #0094BC;
       background: #fff;
 }
+
+#email_form {
+    width: 50%;
+}
 #email {
-    width: 70%;
-    align-content: center;
+    text-align: center;
+} 
+#name {
+    text-align: center;
+} 
+#message {
+    text-align: center;
+}  
+#splat {
+    width: 35%;
+}
+#contact {
+    font-family: Amatic SC, monospace;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 5px 8px rgb(48, 48, 48);
+
+}
+#image_text {
+    width: 40%;
+}
+#splat {
+    width: 100%;
+}
+.image {
+    padding-top: 0;
 }
